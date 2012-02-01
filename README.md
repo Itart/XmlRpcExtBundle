@@ -4,7 +4,7 @@ Itart XmlRpc Extension RPC Bundle
 Extends the RPC Bundle protocol XML-RPC
 
 ###Documentation
-(Resources/doc/index.rst)
+[Resources/doc/index.rst](Resources/doc/index.rst)
 
 ###Requirements
 Symfony2, [ItartRpcBundle](https://github.com/Itart/RpcBundle) with ZendFramework 1.1.x registered in autoload.
