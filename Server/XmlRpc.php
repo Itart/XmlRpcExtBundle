@@ -36,7 +36,6 @@ class XmlRpc extends \Zend_XmlRpc_Server implements ServerInterface
         $this->_container = $container;
 
         \Zend_XmlRpc_Server_Fault::attachFaultException('\Itart\Bundle\RpcBundle\Exception\RpcException');
-
         if ('dev' == $container->get('kernel')->getEnvironment()) {
             \Zend_XmlRpc_Server_Fault::attachFaultException('\Exception');
         }
